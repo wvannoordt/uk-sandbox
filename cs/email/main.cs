@@ -120,7 +120,7 @@ public class Program
 			//THIS WORKS!!!!!
 			var fromAddress = new MailAddress("uk.jenkins.two@gmail.com", signature);
 			var toAddress = new MailAddress(addresses[0]);
-			const string p = "cfd-is-for-winners";
+			const string p = "[PASSWORDHERE]";
 
 			var smtp = new SmtpClient
 			{
